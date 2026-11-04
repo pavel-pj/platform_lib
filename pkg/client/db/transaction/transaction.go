@@ -1,10 +1,11 @@
 package transaction
 
 import (
-	"auth/internal/client/db"
-	"auth/internal/client/db/pg"
 	"context"
 	"errors"
+
+	"github.com/pavel-pj/platform_lib/pkg/client/db"
+	"github.com/pavel-pj/platform_lib/pkg/client/db/pg"
 
 	"fmt"
 

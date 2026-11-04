@@ -1,11 +1,12 @@
 package pg
 
 import (
-	"auth/internal/client/db"
-	"auth/internal/client/db/prettier"
 	"context"
 	"fmt"
 	"log"
+
+	"github.com/pavel-pj/platform_lib/pkg/client/db"
+	"github.com/pavel-pj/platform_lib/pkg/client/db/prettier"
 
 	"github.com/georgysavva/scany/v2/pgxscan"
 	"github.com/jackc/pgx/v5"

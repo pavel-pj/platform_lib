@@ -1,7 +1,7 @@
 package pg
 
 import (
-	"auth/internal/client/db"
+	"github.com/pavel-pj/platform_lib/pkg/client/db"
 
 	"context"
 	"log"
